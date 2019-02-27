@@ -1,0 +1,52 @@
+@import url("css/fonts.css");
+
+body {background:#000}
+/*Preload CSS */
+#wptime-plugin-preloader {position:fixed;margin:auto;left:0;right:0;bottom:0;top:0;background:url(img/top-logo.jpg) no-repeat center center #000;z-index:100000}
+
+.fwidth {max-width:100%}
+.mwidth {max-width:1920px;margin:0 auto}
+.row {max-width:1340px}
+
+#header {padding:40px 0 10px 0}
+#header ul#menu-main-menu {float:right;margin:10px 0 0 0;padding:0}
+#header ul#menu-main-menu li {}
+#header ul#menu-main-menu li a {font-family:'Gotham Bold';text-transform:uppercase;font-size:17px;color:#a8a8a8}
+#header ul#menu-main-menu li a:hover,
+#header ul#menu-main-menu li.menu__item--current a{color:#11a7bb}
+#header ul#menu-main-menu li ul {}
+#header ul#menu-main-menu li ul li {}
+#header ul#menu-main-menu li.s1 a {color:#fff;border:1px solid #acacac}
+#header ul#menu-main-menu li.s2 a {color:#fff;background:#01a7bb;margin-left:4px;border:1px solid #01a7bb}
+
+#appointment {background:url(img/home-block1-bg.jpg) no-repeat;min-height:746px;background-size:100%}
+
+#banner {}
+#banner .b-img{background:url(img/banner-img.jpg) no-repeat left;min-height:686px}
+#banner .b-content {padding:85px 0 0}
+#banner .b-content h1 {font-family:'Gotham Bold';font-size:35px;color:#fff;margin:20px 0 25px}
+#banner .b-content p {color:#8e8e8e;font-family:'Gotham Book'}
+#banner .b-content p a {color:#fff}
+#banner .b-content p a.ani-link {color:#fff}
+
+/*Responsive*/
+
+@media only screen and (max-width:1490px) {}
+
+@media only screen and (max-width:1300px) {}
+
+@media only screen and (max-width:1400px) {}
+
+@media only screen and (max-width:1049px) {}
+
+@media only screen and (max-width:1023px) {}
+
+@media only screen and (max-width:748px) {}
+
+@media only screen and (max-width:717px) {}
+
+@media only screen and (max-width:690px) {}
+
+@media only screen and (max-width:639px) {}
+
+@media only screen and (max-width:478px) {}
